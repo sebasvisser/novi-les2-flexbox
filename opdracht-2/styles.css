@@ -3,3 +3,49 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.one p {
+    display: flex;
+}
+
+.one h3 {
+    display: flex;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two div {
+    display: flex;
+}
+
+.two span {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.three ul {
+    display: flex;
+}
+
+.three div {
+    display: flex;
+    align-self: flex-end;
+}
+
+.three li {
+    display: flex;
+}

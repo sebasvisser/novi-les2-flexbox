@@ -4,6 +4,7 @@
 
 /* Schrijf hier  jouw CSS! */
 
+/*Opdracht 1 */
 .one {
     display: flex;
     flex-direction: column;
@@ -17,7 +18,9 @@
 .one h3 {
     display: flex;
 }
+/*EINDE Opdracht 1 */
 
+/*Opdracht 2 */
 .two {
     display: flex;
     justify-content: space-between;
@@ -31,21 +34,53 @@
     display: flex;
     justify-content: flex-start;
 }
+/*EINDE Opdracht 2 */
 
+/*Opdracht 3 */
 .three {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 .three ul {
     display: flex;
+    list-style-type: none;
+}
+
+/*¯\_(ツ)_/¯ Het eindresultaat lijkt erop...Maar dit zal niet de bedoeling zijn toch? padding =/ flexbox? */
+.three li {
+    padding:0 70px 0 0;
 }
 
 .three div {
     display: flex;
-    align-self: flex-end;
+    align-self: center;
+}
+/*EINDE Opdracht 3 */
+
+/*Opdracht 4 */
+.container24 {
+    display: flex;
+    justify-content: center;
 }
 
-.three li {
+.form24 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+/*EINDE Opdracht 4 */
+
+/*Opdracht 5 */
+.five {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.five article{
+    /*padding uit base-style = 20px dus 400-20(links)-20(rechts) = 360*/
+    flex-basis: 360px;
+    flex-grow: 1;
+}
+/*EINDE Opdracht 5 */

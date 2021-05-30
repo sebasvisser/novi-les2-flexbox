@@ -80,7 +80,7 @@
 
 .five article{
     /*padding uit base-style = 20px dus 400-20(links)-20(rechts) = 360*/
-    flex-basis: 360px;
+    width: 360px;
     flex-grow: 1;
 }
 /*EINDE Opdracht 5 */
